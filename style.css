@@ -91,10 +91,14 @@ input, button {
 }
 
 main {
-	/* flex-grow flex-shrink flex-basis|auto|initial|inherit; */
-	flex: 1 1 0%;
+	/* flex sets flexible size on flexible elements*/
+	/*Auto: 1 1 Auto*/
+	/*Initial: 0 1 Auto*/
+	/*None: 0 0 Auto*/
+	flex: 1 1 0%; /*grow shrink basic*/
 	max-width: 800px;
 	width: 100%;
+	/*Margin 0 (top & bottom), auto (right & left)*/
 	margin: 0 auto;
 }
 
@@ -109,7 +113,7 @@ main {
 	margin-bottom: 1rem;
 }
 
-#tasks .task {
+.task {
 	display: flex;
 	/* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally) */
 	/* Items will have space between them */

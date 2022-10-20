@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +8,27 @@
 	<title>My CRUD Task List</title>
 	<link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 	<header>
 		<h1 class="task_list_main">My Task Planner</h1>
 		<form name="task_form" id="new-task-form" class="new_task_form">
 			<input type="text" name="new-task-input" class = "task_input" id="new-task-input" 
-			placeholder="What do you have planned?" minlength="100" />
+			placeholder="What do you have planned?" />
 			
             <input type="submit" id="new-task-submit" class = "task_add" value="Add Task" />
 		</form>
 	</header>
 	<main>
 		<section class="task_list">
-			<h2 class = "task_list_header">My Current Tasks</h2>
+			<h2 class="task_list_header">My Current Tasks</h2>
 			<div id="tasks" class="tasks">
 
 			</div>
 		</section>
 	</main>
 
-	<script src="/script.js"></script>
+	<script src="index.js"></script>
 </body>
+
 </html>
