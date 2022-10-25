@@ -176,3 +176,7 @@ main {
 .task .actions .delete {
 	color: red;
 }
+
+ol {
+	color: whitesmoke;
+}
